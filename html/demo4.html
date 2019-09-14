@@ -1,0 +1,33 @@
+<!--<!DOCTYPE html>
+<html>
+<head>
+    <title>10.HTML框架详解与框架布局实战</title>
+    <meta charset="utf-8">
+</head> -->
+<!--clos="*,*" 分屏 左右分屏 -->
+<!--rows="*,*" 分屏 上下分屏 -->
+<!-- <frameset rows="90,*,90" frameborder="5" border="5">
+    <frame name="top" >
+        <frameset clos="30%,70%">
+            <frame name="left" >
+                
+            <frame name="right" >
+        </frameset>
+    <frame name="buttom">
+</frameset>
+</html>
+-->
+
+<!DOCTYPE html>
+<html>
+
+<frameset rows="90,*,90">
+  <frame src="frame_a.htm">
+  <frameset cols="25%,75%">
+    <frame src="frame_b.htm">
+    <frame src="frame_c.htm">
+  </frameset>
+  <frame src="frame_d.htm">
+</frameset>
+
+</html>
